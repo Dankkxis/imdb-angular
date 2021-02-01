@@ -1,6 +1,6 @@
 <div>
   <p>logo</p>
-  <input [(ngModel)]="title">
-  <input type="button" value="Buscar" (click)="findByTitle()">
+  <input [(ngModel)]="title" (change)="findByTitle()">
+  <!-- <input [(ngModel)]="title"> -->
   <input type="button" value="Logout" (click)="logout()">
 </div>
