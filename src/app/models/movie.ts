@@ -1,4 +1,4 @@
-export class Pelicula {
+export class Movie {
   title: string;
   director: string;
   rating: number;
