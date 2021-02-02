@@ -1,0 +1,13 @@
+div {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: 0 auto;
+}
+
+input {
+  width: 200px;
+}
+input:last-child {
+  margin-top: 10px;
+}
