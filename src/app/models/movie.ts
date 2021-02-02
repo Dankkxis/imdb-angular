@@ -8,5 +8,5 @@ export class Movie {
   id: number;
   description: string;
   duration: string;
-  languaje: string;
+  language: string;
 }
