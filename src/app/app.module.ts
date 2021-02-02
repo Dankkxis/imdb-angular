@@ -8,7 +8,8 @@ import { LoginComponent } from './components/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { DetalleComponent } from './detalle/detalle.component';
+import { SaveComponent } from './components/save/save.component';
+import { DetailComponent } from './components/detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -16,16 +17,17 @@ import { DetalleComponent } from './detalle/detalle.component';
     LoginComponent,
     HomeComponent,
     NavbarComponent,
-    DetalleComponent
+    SaveComponent,
+    DetailComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,0 +1,24 @@
+<p>Movie</p>
+<div>
+  <label>Titulo</label>
+  <input [(ngModel)]="movie.title" />
+  <label>Director</label>
+  <input [(ngModel)]="movie.director" />
+  <label>Rating</label>
+  <input [(ngModel)]="movie.rating" />
+  <label>Genero</label>
+  <input [(ngModel)]="movie.genre" />
+  <label>Año de lanzamiento</label>
+  <input [(ngModel)]="movie.year" />
+  <label>Lenguaje</label>
+  <input [(ngModel)]="movie.languaje" />
+  <label>Description</label>
+  <input type="textbox" [(ngModel)]="movie.description" />
+  <label>Duration</label>
+  <input [(ngModel)]="movie.duration" />
+</div>
+<div>
+  <label>Subir Imagen</label>
+  <input [(ngModel)]="movie.image" />
+  <input type="button" (click)="saveMovie()" value="save" />
+</div>

@@ -4,8 +4,9 @@ export class Movie {
   rating: number;
   genre: string;
   year: number;
-  country: string;
+  image: string;
   id: number;
   description: string;
   duration: string;
+  languaje: string;
 }
